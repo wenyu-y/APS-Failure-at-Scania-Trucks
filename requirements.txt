@@ -1,0 +1,13 @@
+# packages for this homework6
+import pandas as pd  # data processing
+import numpy as np   # N-DIMENSIONAL ARRAYS
+from sklearn.impute import SimpleImputer   # dealing with missing values
+import seaborn as sns # visualization
+import matplotlib.pyplot as plt  # visualization
+from sklearn import metrics  #confusion metrics
+from sklearn.ensemble import RandomForestClassifier    #train random model
+from sklearn.metrics import mean_squared_error   #test and train error 
+import xgboost as xgb
+from xgboost import XGBClassifier
+from imblearn.over_sampling import SMOTE
+from sklearn import svm
